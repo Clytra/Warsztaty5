@@ -12,7 +12,7 @@ namespace WebApplication1.Context
     {
         public EFCIContext(DbContextOptions<EFCIContext> options) : base(options) { }
         DbSet<MessageModel> Messages { get; set; }
-        DbSet<CanalModel> Canals { get; set; }
+        DbSet<ChannelModel> Channels { get; set; }
         DbSet<UserModel> Users { get; set; }
     }
 }

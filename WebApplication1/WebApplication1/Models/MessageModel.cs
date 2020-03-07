@@ -11,6 +11,6 @@ namespace WebApplication1.Models
         public string Message { get; set; }
         public DateTime Created { get; set; }
         public UserModel UserModel { get; set; }
-        public CanalModel CanalModel { get; set; }
+        public ChannelModel ChannelModel { get; set; }
     }
 }
