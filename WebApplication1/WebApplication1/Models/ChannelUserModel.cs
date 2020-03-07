@@ -12,7 +12,7 @@ namespace WebApplication1.Models
         public int ChannelID { get; set; }
         public int UserID { get; set; }
 
-        [ForeignKey ("CanalID")]
+        [ForeignKey ("ChannelID")]
         public ChannelModel ChannelModel { get; set; }
 
         [ForeignKey ("UserID")]

@@ -11,6 +11,7 @@ namespace WebApplication1.Context
     public class EFCIContext : IdentityDbContext
     {
         public EFCIContext(DbContextOptions<EFCIContext> options) : base(options) { }
+
         DbSet<MessageModel> Messages { get; set; }
         DbSet<ChannelModel> Channels { get; set; }
         DbSet<UserModel> Users { get; set; }

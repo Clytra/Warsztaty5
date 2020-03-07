@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace WebApplication1.Models
 {
-    public class UserModel : IdentityUser
+    public class UserModel 
     {
         public int ID { get; set; }
+
         public ICollection<MessageModel> Messages { get; set; }
 
         public ICollection<ChannelUserModel> ChannelUser { get; set; }
