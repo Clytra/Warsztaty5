@@ -3,11 +3,18 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <title>OnSite</title>
 </head>
 <body>
-    <div>
-        @RenderBody()
+    <div class="navbar navbar-inverse bg-inverse" role="navigation">
+        <a class="navbar-brand" href="#">Ale Kanał!</a>
+    </div>
+    <div class="row m-1 p-1">
+        <div class="col-9">
+            @RenderBody()
+        </div>
     </div>
 </body>
 </html>
