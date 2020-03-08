@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Views\Channel\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 

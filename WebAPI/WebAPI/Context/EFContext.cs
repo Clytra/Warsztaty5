@@ -14,9 +14,9 @@ namespace WebAPI.Context
         {
         }
 
-        DbSet<MessageModel> Messages { get; set; }
-        DbSet<ChannelModel> Chanels { get; set; }
-        DbSet<UserModel> Users { get; set; }
-        DbSet<UserChannelModel> UsersChannels { get; set; }
+        public DbSet<MessageModel> Messages { get; set; }
+        public DbSet<ChannelModel> Channels { get; set; }
+        public DbSet<UserModel> Users { get; set; }
+        public DbSet<UserChannelModel> UsersChannels { get; set; }
     }
 }
