@@ -34,7 +34,7 @@ namespace WebAPI
                 builder.UseSqlServer(Configuration["ConnectionString"]);
             });
 
-            services.AddIdentity<UserModel, IdentityRole>()
+            services.AddIdentity<IdentityUser, IdentityRole>()
                 .AddEntityFrameworkStores<EFContext>();
 
             services.AddMvc();
